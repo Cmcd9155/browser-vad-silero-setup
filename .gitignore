@@ -1,0 +1,5 @@
+node_modules/
+public/vad/
+dist/
+.DS_Store
+.env*

@@ -1,0 +1,17 @@
+{
+  "name": "browser-vad-silero-setup",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Reference documentation and examples for a browser-only Silero VAD audio pipeline.",
+  "type": "module",
+  "scripts": {
+    "copy-vad-assets": "node scripts/copy-vad-assets.mjs"
+  },
+  "dependencies": {
+    "@ricky0123/vad-web": "^0.0.30",
+    "onnxruntime-web": "^1.26.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
